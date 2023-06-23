@@ -1,0 +1,32 @@
+#search {
+    border-radius: 25px;
+    border: 1px solid cornflowerblue;
+    padding: 5px 40px;
+    background-color: white;
+    color: cornflowerblue;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#plus {
+    border-radius: 50%;
+    border: 0px;
+    padding: 5px 12px 5px 12px;
+    background-color: cyan;
+    color: white;
+    font-size: 25px;
+}
+
+#account {
+    border: 2px solid black;
+    padding: 5px 40px;
+    background-color: cornflowerblue;
+    color: white;
+    box-shadow: 4px 4px black;
+    font-size: 16px;
+}
+
+#contenedor {
+    margin: 30px;
+    border-spacing: 15px;
+}
