@@ -33,13 +33,13 @@
     padding: 20px;
 }
 
-.button {
+.bottom {
     width: 800px;
     background-color: bisque;
     margin-top: 20px;
 }
 
-.button img {
+.bottom img {
     height: 200px;
     display: inline-flex;
     padding: 20px;
