@@ -1,0 +1,39 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    background-color: rgb(58, 55, 55);
+    color: beige;
+    height: 80px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav a {
+    color: beige;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: rgb(34, 132, 197);
+    color: beige;
+    border: black 2;
+    box-shadow: 5px 5px black;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
