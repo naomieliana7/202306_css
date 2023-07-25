@@ -1,0 +1,28 @@
+.row {
+    height: 60px;
+    color: aliceblue;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.col {
+    height: 40px;
+    background-color: rgb(96, 96, 199);
+    padding-left: 10px;
+    flex-grow: 1;
+}
+
+.col-2 {
+    height: 40px;
+    background-color: rgb(96, 96, 199);
+    flex-grow: 2;
+}
+
+.col-3 {
+    height: 40px;
+    background-color: rgb(96, 96, 199);
+    flex-grow: 3;
+}
