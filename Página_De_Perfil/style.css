@@ -1,0 +1,138 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#page {
+    display: flex;
+    flex-wrap: wrap;
+    width: 660px;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: stretch;
+
+}
+
+#encabezado {
+    background-color: black;
+    color: aliceblue;
+    width: 660px;
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#encabezado button {
+    background-color: rgb(37, 141, 201);
+    color: aliceblue;
+}
+
+#content {
+    margin-right: 20px;
+}
+
+#blue {
+    background-color: rgb(74, 169, 233);
+    height: 100px;
+    width: 370px;
+}
+
+#information {
+    height: 350px;
+    width: 342px;
+    border: 4px solid gainsboro;
+    border-top: 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.image img {
+    height: 15px;
+}
+
+#profile {
+    display: flex;
+    padding: 50px;
+}
+
+#profile img {
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid gainsboro;
+}
+
+#connection {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+}
+
+.connection-body {
+    border: 2px solid gainsboro;
+    margin-bottom: 20px;
+}
+
+#connection-tittle {
+    display: flex;
+    background-color: rgb(44, 40, 40);
+    color: aliceblue;
+    height: 22px;
+}
+
+#connection-tittle div {
+    width: 30px;
+    background-color: rgb(177, 175, 175);
+    border-radius: 40%;
+    text-align: center;
+}
+
+#connection img {
+    height: 30px;
+    border-radius: 50%;
+}
+
+#your-tittle {
+    display: flex;
+    background-color: rgb(44, 40, 40);
+    color: aliceblue;
+    height: 22px;
+}
+
+#your-tittle div {
+    background-color: rgb(177, 175, 175);
+    border-radius: 40%;
+    text-align: center;
+    width: 50px;
+}
+
+#view {
+    border-top: 2px solid gainsboro;
+}
+
+#education {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#education-tittle {
+    background-color: rgb(44, 40, 40);
+    color: aliceblue;
+    margin-top: 30px;
+
+}
+
+#education span {
+    color: gray;
+}
